@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashstyles.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop class="background-video">
+        <source src="/BGVID.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Dashboard Container -->
+    <div class="dashboard-container">
+        <!-- Cybersecurity News Marquee Positioned Above the Dashboard Title -->
+        <div id="cyber-news">
+            <marquee behavior="scroll" direction="left">Loading cybersecurity news...</marquee>
+        </div>
+
+        <h2>Project Dashboard</h2>
+        <div class="options">
+            <button onclick="showContent('problem')">Problem Statement</button>
+            <button onclick="showContent('solution')">Solution Overview</button>
+            <button onclick="showContent('tech')">Tech Stack</button>
+            <button onclick="showContent('business')">Business Approach</button>
+            <button onclick="showContent('sustainability')">Sustainability & Feasibility</button>
+        </div>
+        <div id="content-display" class="content-display">
+            <p>Click a button above to view content.</p>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
