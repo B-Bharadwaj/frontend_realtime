@@ -14,14 +14,16 @@ This is the frontend for a real-time web application built using React. It suppo
 ---
 
 ## 📁 Project Structure
+```text
 frontend_realtime/
 ├── public/
 ├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Route-based views
-│ ├── services/ # API and socket logic
-│ ├── App.js
-│ └── index.js
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Route-based views
+│   ├── services/       # API and socket logic
+│   ├── App.js
+│   └── index.js
 ├── .env
 ├── package.json
 └── README.md
+```
